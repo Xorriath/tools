@@ -6,3 +6,8 @@ The calcom application implements throttling by default, so this attack would ta
 ## get_all_users.sh
 
 When enumerating Active Directory users using either rpc or ldap, I noticed that sometimes a method might show users the other does not, most commonly the ldap method also grabs the machine accounts of the domain computers, whereas the rpc method does not. This tool queries AD via both rpc using netexec and ldap using ldapsearch and combines the results in a sorted list.
+
+## Package-CVE-Checker-Installed.py
+
+This tool grabs a list of all the packes installed on a Debian based system ("apt list --installed"), then checks all the packages and their versions for known CVEs, based on the selected CVSS score(default 7+) using the Vulners API. For CVEs related to local privilege escalation vulnerabilities, I recommend setting the --CVSS flag to 8+.The free Vulners API key has some rate limitting, which the tool accounts for so it may take some time to run, naturally with a paid key it would run much faster. The results are saved in a nicely formatted markdown file.
+
