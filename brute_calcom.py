@@ -1,5 +1,5 @@
 # Script I found useful for assessing the bruteforce protections of calcom application.
-# It does protect the login page with trottling, but this could still be useful given enough time as there is no failed login attempt threshold
+# Calcom does protect the login page with trottling, but this could still be useful given enough time as there is no failed login attempt threshold.
 
 import requests  
 import subprocess  
