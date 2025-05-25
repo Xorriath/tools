@@ -6,7 +6,7 @@
 GETTGT_PY="/home/kali/Transfers/PKINITtools/gettgtpkinit.py"
 GETNTHASH_PY="/home/kali/Transfers/PKINITtools/getnthash.py"
 ```
-3.Requires the necessary modules needed to run gettgtpkinit.py and getnthash.py. These are typically already satisfied in the latest release of Kali Linux. For other operating systems, please consult requirements.txt on the PKINITtools repo.
+3. Requires the necessary modules needed to run gettgtpkinit.py and getnthash.py. These are typically already satisfied in the latest release of Kali Linux. For other operating systems, please consult requirements.txt on the PKINITtools repo.
 
 ## Usage
 This script combines pywhisker,  gettgtpkinit.py and getnthash.py to exploit GenericWrite Active Directory privilege set over a Domain User or Computer Object(machine account), requires ADCS to be properly configured on the domain controller.
