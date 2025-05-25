@@ -1,6 +1,6 @@
 ## Dependancies
 1. Requires pywhisker to be installed with pipx `pipx install git+https://github.com/ShutdownRepo/pywhisker.git`
-2. Requires gettgtpkinit.py and getnthash.py from https://github.com/dirkjanm/PKINITtools/tree/master. I recommend cloning the repo and setting the tools as static variable in the script. I set mine like this.
+2. Requires gettgtpkinit.py and getnthash.py from https://github.com/dirkjanm/PKINITtools/tree/master. I recommend cloning the repo and setting the tools as static variables in the script. I set mine like this.
 ```
 # Full paths to gettgtpkinit.py and getnthash.py
 GETTGT_PY="/home/kali/Transfers/PKINITtools/gettgtpkinit.py"
