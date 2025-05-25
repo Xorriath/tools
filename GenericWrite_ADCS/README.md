@@ -9,7 +9,7 @@ GETNTHASH_PY="/home/kali/Transfers/PKINITtools/getnthash.py"
 3. Requires the necessary modules needed to run gettgtpkinit.py and getnthash.py. These are typically already satisfied in the latest release of Kali Linux. For other operating systems, please consult requirements.txt on the PKINITtools repo.
 
 ## Usage
-This script combines pywhisker,  gettgtpkinit.py and getnthash.py to exploit GenericWrite Active Directory privilege set over a Domain User or Computer Object(machine account), requires ADCS to be properly configured on the domain controller.
+This script combines pywhisker,  gettgtpkinit.py and getnthash.py to exploit GenericWrite Active Directory privilege set over a Domain User or Computer Object(machine account) to perform the "shadow credentials" attack, requires ADCS to be properly configured on the domain controller.
 Pywhisker is used to obtain a certificate for the targeted user, gettgtpkinit.py is used to obtain a TGT using the previously obtained certificate and finally getnthash.py is used to extract the NT hash from the TGT.
 
 ## Example
