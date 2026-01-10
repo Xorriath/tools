@@ -14,3 +14,7 @@ This tool grabs a list of all the packes installed on a Debian based system ("ap
 ## LFI_basic_fuzz.txt
 
 A payload list useful for fuzzing file inclusion parameters.
+
+## suBF.sh
+
+Updated suBF.sh script to allow for cluster bomb and pichfork password modes, from the original authors at https://github.com/carlospolop/su-bruteforce/blob/master/suBF.sh.
