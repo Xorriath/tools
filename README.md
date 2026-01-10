@@ -18,3 +18,6 @@ A payload list useful for fuzzing file inclusion parameters.
 ## suBF.sh
 
 Updated suBF.sh script to allow for cluster bomb and pichfork password modes, from the original authors at https://github.com/carlospolop/su-bruteforce/blob/master/suBF.sh.
+
+## net-creds.py
+Ported over the old net-creds.py tool from python2 to python3, from the original author https://github.com/DanMcInerney/net-creds.
